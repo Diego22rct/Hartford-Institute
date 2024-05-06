@@ -17,6 +17,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
+import { PageMentalStateExamsComponent } from './nursing/pages/page-mental-state-exams/page-mental-state-exams.component';
+import { NavbarComponent } from './public/components/navbar/navbar.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,7 +29,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     PageNotFoundComponent,
     HomeComponent,
-    LanguageSwitcherComponent
+    LanguageSwitcherComponent,
+    PageMentalStateExamsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
