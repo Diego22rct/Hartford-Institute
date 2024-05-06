@@ -8,6 +8,11 @@
     "redirect": "Seras redirigido en",
     "button": "Volver a la página de inicio"
   },
+  "nursing": {
+    "mental-state-exams": {
+      "title": "Evaluaciones de Salud Mental"
+    }
+  },
   "commun": {
     "time": "segundos"
   }

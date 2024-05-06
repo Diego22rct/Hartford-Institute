@@ -8,6 +8,11 @@
     "redirect": "You are being redirected in",
     "button": "Go to home"
   },
+  "nursing": {
+    "mental-state-exams": {
+      "title": "Mental State Exams"
+    }
+  },
   "commun": {
     "time": "seconds"
   }
