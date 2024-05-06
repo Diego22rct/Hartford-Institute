@@ -1,3 +1,6 @@
 <h1>
   {{'nursing.mental-state-exams.title' | translate}}
 </h1>
+<section class="cards">
+  <app-exam-card *ngFor="let exam of exams" [exam]="exam"></app-exam-card>
+</section>
