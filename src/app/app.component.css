@@ -1,0 +1,17 @@
+header {
+  background-color: #f8f8f8;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+}
+
+/* .options-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+} */
+

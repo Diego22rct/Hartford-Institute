@@ -1,1 +1,12 @@
+<header>
+  <mat-toolbar>
+    <p>
+      <img src="https://hign.org/sites/default/files/2022-01/HIGN-logo-1200.png" alt="HIGN Logo" />
+    </p>
+
+    <mat-divider></mat-divider>
+
+<a mat-button *ngFor="let option of options" [routerLink]="option.link">{{ option.name }}</a>
+  </mat-toolbar>
+</header>
 <router-outlet></router-outlet>

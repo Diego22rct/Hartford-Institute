@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HartfordInstitute';
+  options = [
+    { name: 'Home', link: '/home' },
+    { name: 'Mental State Exams', link: '/nursing/mental-state-exams' },
+  ];
 }
