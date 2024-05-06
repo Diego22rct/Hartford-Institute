@@ -15,5 +15,11 @@
   },
   "commun": {
     "time": "seconds"
+  },
+  "exam-card": {
+    "bornDate": "Born Date",
+    "nationalProviderIdentifier": "National Provider Identifier",
+    "totalScore": "Total Score",
+    "examDate": "Exam Date"
   }
 }

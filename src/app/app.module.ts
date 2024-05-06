@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './public/pages/not-found/not-found.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HomeComponent } from './public/pages/home/home.component';
+import { ExamCardComponent } from './nursing/components/exam-card/exam-card.component';
+import { PageMentalStateExamsComponent } from './nursing/pages/page-mental-state-exams/page-mental-state-exams.component';
+import { NavbarComponent } from './public/components/navbar/navbar.component';
 
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
@@ -17,8 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
-import { PageMentalStateExamsComponent } from './nursing/pages/page-mental-state-exams/page-mental-state-exams.component';
-import { NavbarComponent } from './public/components/navbar/navbar.component';
+import { MatCardModule } from '@angular/material/card';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -31,7 +33,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     LanguageSwitcherComponent,
     PageMentalStateExamsComponent,
-    NavbarComponent
+    NavbarComponent,
+    ExamCardComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    MatCardModule
   ],
   providers: [
     provideAnimationsAsync()

@@ -15,5 +15,11 @@
   },
   "commun": {
     "time": "segundos"
+  },
+  "exam-card": {
+    "bordDate": "Fecha de nacimiento",
+    "nationalProviderIdentifier": "Identificación Nacional del Proveedor",
+    "totalScore": "Puntuación total",
+    "examDate": "Fecha del examen"
   }
 }

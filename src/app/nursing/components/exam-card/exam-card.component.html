@@ -1,0 +1,23 @@
+
+<mat-card class="exam-card">
+  <mat-card-header>
+    <div mat-card-avatar class="exam-header-image"></div>
+    <mat-card-title>{{exam.patientName}}</mat-card-title>
+    <mat-card-subtitle>{{exam.examinerName}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="exam.photoUrl" [alt]="exam.patientName">
+  <mat-card-content>
+    <p>
+      {{"exam-card.born" | translate}} {{exam.bornDate}}
+    </p>
+    <p>
+      {{"exam-card.nationalProviderIdentifier" | translate}} {{exam.nationalProviderIdentifier}}
+    </p>
+    <p>
+      {{"exam-card.totalScore" | translate}}  {{exam.totalScore}}
+    </p>
+    <p>
+      {{"exam-card.examDate" | translate}} {{exam.examDate}}
+    </p>
+  </mat-card-content>
+</mat-card>
