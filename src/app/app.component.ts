@@ -8,10 +8,6 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'HartfordInstitute';
-  options = [
-    { name: 'Home', link: '/home' },
-    { name: 'Mental State Exams', link: '/nursing/mental-state-exams' },
-  ];
 
   constructor(translate: TranslateService) {
     translate.setDefaultLang('en');
