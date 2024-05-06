@@ -1,5 +1,14 @@
 {
   "home": {
     "hero-section-phrase": " HIGN promueve la atención médica equitativa para los adultos mayores al educar a la fuerza laboral y a los futuros profesionales, informar las políticas, promover la investigación y brindar programas comunitarios."
+  },
+  "not-found": {
+    "title": "Página no encontrada",
+    "content": "Lo sentimos, la página que está buscando no se pudo encontrar. Por favor, vuelva a la página de inicio",
+    "redirect": "Seras redirigido en",
+    "button": "Volver a la página de inicio"
+  },
+  "commun": {
+    "time": "segundos"
   }
 }
