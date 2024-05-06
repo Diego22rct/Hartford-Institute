@@ -21,6 +21,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { MatCardModule } from '@angular/material/card';
+import { ExaminersService } from './nursing/services/examiners.service';
+import { PatientsApiService } from './nursing/services/patients-api.service';
+import { MentalStateExamsApiService } from './nursing/services/mental-state-exams-api.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -55,7 +58,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatCardModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    ExaminersService,
+    PatientsApiService,
+    MentalStateExamsApiService
   ],
   bootstrap: [AppComponent]
 })

@@ -10,6 +10,6 @@ export class PatientsApiService extends BaseService<PatientsEntity> {
 
   constructor(http: HttpClient) {
     super(http);
-    this.resourceEndpoint = 'patients';
+    this.resourceEndpoint = '/patients';
   }
 }

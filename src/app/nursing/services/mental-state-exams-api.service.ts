@@ -10,6 +10,6 @@ export class MentalStateExamsApiService extends BaseService<MentalStateExamsEnti
 
   constructor(http: HttpClient) {
     super(http);
-    this.resourceEndpoint = 'mental-state-exams';
+    this.resourceEndpoint = '/mental-state-exams';
   }
 }

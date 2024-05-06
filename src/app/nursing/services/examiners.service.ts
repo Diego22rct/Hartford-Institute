@@ -10,6 +10,6 @@ export class ExaminersService extends BaseService<ExaminersEntity> {
 
   constructor(http: HttpClient) {
     super(http);
-    this.resourceEndpoint = 'examiners';
+    this.resourceEndpoint = '/examiners';
   }
 }
